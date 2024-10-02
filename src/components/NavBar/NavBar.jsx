@@ -1,9 +1,9 @@
-import React from 'react';
 import "./NavBar.css";
 import logo from "../../assets/LogoFitness.png";
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
-function NavBar() {
+const NavBar = () => {
     return (
     <nav className='navbar'> 
         <div>
@@ -11,19 +11,19 @@ function NavBar() {
         </div>
         <ul className='navbar-links'>
             <li className='navbar-item'>
-                <a href='#'>Home</a>
+                <Link to="/">Home</Link>
             </li>
             <li className='navbar-item'>
-                <a href='#'>Suplementos</a>
+                <Link to="/categoria/suplemento">Suplementos</Link>
             </li>
             <li className='navbar-item'>
-                <a href='#'>Ropa</a>
+                <Link to="/categoria/ropa">Ropa</Link>
             </li>
         </ul>
     <CartWidget/>
     </nav>
     
-    )
+    );
 }
 
 export default NavBar
