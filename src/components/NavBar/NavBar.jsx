@@ -3,6 +3,8 @@ import logo from "../../assets/LogoFitness.png";
 import CartWidget from '../CartWidget/CartWidget';
 import { Link } from 'react-router-dom';
 
+
+
 const NavBar = () => {
     return (
     <nav className='navbar'> 
@@ -20,7 +22,9 @@ const NavBar = () => {
                 <Link to="/categoria/ropa">Ropa</Link>
             </li>
         </ul>
+    <Link to="/cart">
     <CartWidget/>
+    </Link>
     </nav>
     
     );

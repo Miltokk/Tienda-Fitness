@@ -6,7 +6,8 @@ const ProductosSuplementos=[
         "precio": 299.99,
         "imagen": "https://example.com/imagenes/creatina_monohidratada.jpg",
         "categoria": "Creatina",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@ const ProductosSuplementos=[
         "precio": 599.99,
         "imagen": "https://example.com/imagenes/whey_protein.jpg",
         "categoria": "Proteína",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@ const ProductosSuplementos=[
         "precio": 349.99,
         "imagen": "https://example.com/imagenes/bcaa.jpg",
         "categoria": "Aminoácidos",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@ const ProductosSuplementos=[
         "precio": 399.99,
         "imagen": "https://example.com/imagenes/glutamina.jpg",
         "categoria": "Aminoácidos",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@ const ProductosSuplementos=[
         "precio": 199.99,
         "imagen": "https://example.com/imagenes/omega3.jpg",
         "categoria": "Ácidos grasos",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@ const ProductosSuplementos=[
         "precio": 459.99,
         "imagen": "https://example.com/imagenes/pre_entreno.jpg",
         "categoria": "Pre-entreno",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@ const ProductosSuplementos=[
         "precio": 179.99,
         "imagen": "https://example.com/imagenes/multivitaminico.jpg",
         "categoria": "Vitaminas",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@ const ProductosSuplementos=[
         "precio": 549.99,
         "imagen": "https://example.com/imagenes/proteina_vegetal.jpg",
         "categoria": "Proteína",
-        "tipo":"suplemento"
+        "tipo":"suplemento",
+        "inventario":5
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@ const ProductosSuplementos=[
         "precio": 249.99,
         "imagen": "https://example.com/imagenes/camiseta_entrenamiento.jpg",
         "categoria": "Camisetas",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":10
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@ const ProductosSuplementos=[
         "precio": 199.99,
         "imagen": "https://example.com/imagenes/pantalones_cortos.jpg",
         "categoria": "Pantalones",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":10
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@ const ProductosSuplementos=[
         "precio": 349.99,
         "imagen": "https://example.com/imagenes/leggings_compresion.jpg",
         "categoria": "Leggings",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":10
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@ const ProductosSuplementos=[
         "precio": 499.99,
         "imagen": "https://example.com/imagenes/sudadera_capucha.jpg",
         "categoria": "Sudaderas",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":15
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@ const ProductosSuplementos=[
         "precio": 149.99,
         "imagen": "https://example.com/imagenes/guantes_entrenamiento.jpg",
         "categoria": "Accesorios",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":12
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@ const ProductosSuplementos=[
         "precio": 89.99,
         "imagen": "https://example.com/imagenes/calcetines_deportivos.jpg",
         "categoria": "Accesorios",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":35
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@ const ProductosSuplementos=[
         "precio": 179.99,
         "imagen": "https://example.com/imagenes/tirantes_deportivos.jpg",
         "categoria": "Camisetas",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":6
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@ const ProductosSuplementos=[
         "precio": 699.99,
         "imagen": "https://example.com/imagenes/zapatillas_entrenamiento.jpg",
         "categoria": "Calzado",
-        "tipo":"ropa"
+        "tipo":"ropa",
+        "inventario":3
     }
     
 ]
